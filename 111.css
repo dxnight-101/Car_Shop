@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border: 2px solid;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+    text-align: left;
+    vertical-align: middle;
+    border: 2px solid;
+    text-align: center;
+  }
+  
+  nav, p{
+    text-align: center;
+  }
+  nav, ol{
+    text-align: center;
+  }
