@@ -38,3 +38,12 @@ table {
     padding-right: 10px;
   }
   
+  img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  #istoriya{
+    font-size: 20px;
+    font-weight: bold;
+  }
