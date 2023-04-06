@@ -20,7 +20,7 @@ table {
   nav, ol, li{
     display: flex; /* чтобы элементы шли целиком в ряд */
     list-style: none; /* чтобы убрать маркеры */
-    padding: 5; /* чтобы убрать отступы */
+    padding: 0px; /* чтобы убрать отступы */
     text-align: center;
     justify-content: center; 
   }
@@ -40,9 +40,9 @@ table {
   }
   
    img{
+    display: flex;
     width: 100px;
     height: 100px;
-    display: block;
     margin-left: 100px;
   }
   
@@ -58,4 +58,37 @@ table {
     text-indent: 20px; 
   }
   
-  
+  header,h1{
+    text-align: center;
+    margin: auto;
+    background-color: transparent;
+  }
+  .csd::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  footer, div, p{
+    display: flex;
+    flex-wrap: nowrap; /* чтобы не переносить на новую строку */
+    align-items: center; /* чтобы выровнять по вертикали */
+  }
+.footerr{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  margin-top: 5px;
+  text-indent: 100px;
+}
+.aey{
+  text-indent: 60px;
+}
+footer{
+  background-color: rgba(128, 128, 128, 0.5);
+}
