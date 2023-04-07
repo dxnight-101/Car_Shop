@@ -62,7 +62,7 @@ table {
     margin: auto;
     background-color: transparent;
   }
-  .csd::after {
+  .zagolovok::after {
     content: "";
     display: block;
     height: 1px;
@@ -76,7 +76,7 @@ table {
     flex-wrap: nowrap; /* чтобы не переносить на новую строку */
     align-items: center; /* чтобы выровнять по вертикали */
   }
-.footerr{
+.VneshnayaObolochka{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -84,9 +84,7 @@ table {
   gap: 600px;
   margin-top: 5px;
 }
-.aey{
-  text-indent: 60px;
-}
+
 footer{
   background-color: rgba(128, 128, 128, 0.5);
   position: absolute;
